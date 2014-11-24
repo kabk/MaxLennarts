@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!-- ** see note -->
+
+    <head>
+        <!-- The classical Cartesian distinction, head and body! In the head comes all the metadata page needs to function-->
+
+        <title>DIGITALE NARCISME</title> <!-- This is the title shown in the Window bar -->
+
+        <meta charset="utf-8"> <!-- You need this so the browser can understand ‘typographic quotes’ and accented characters éëê etc.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- This tag is important if we make a responsive site
+                                                                                  see http://kabk.github.io/govt4-coding/responsive-layout.html -->
+
+        <meta name="De digitale wereld, een plek waar we ons zelfbeeld kunnen boetseren en kneden tot in de perfectie. Tegelijkertijd herrinerd deze plek er ons aan dat we niet zo zijn." content="This is where you can put a short description of the page. Google will sometimes display this, and Facebook uses it to display in a link preview.">
+        
+        <!-- The following metadata can be useful for archiving -->
+        
+        <meta property="dc:creator" content="Max Lennarts">
+        <meta property="dc:created" content="2014-11-24T00:00:00Z">
+        <meta property="dc:modified" content="2014-11-24T00:00:00Z">
+        
+        <!-- Link stylesheets!-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" /> <!-- This normalize.css file takes care of some inconsistencies between browsers -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" /><!-- Here I put the rest of my styles-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Viga|Convergence|Asul:400,700' rel='stylesheet' type='text/css'>
+        
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/jquery.min.js"></script><style type="text/css"></style>
+        <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+        </script>
+    </head>
+    <body>
+        <header> <!-- In HTML5 there are the elements header, nav, article and aside that are just like divs (blocks)… 
+                      The only difference is that through their name, they indicate their function,
+                      so it helps in structuring the code -->
+                 <!-- Note: the <head> tag is invisible metadata, the <header> tag is visible on the page!-->
+            <h1>DIGITALE NARCISME</h1> <!-- HTML allows for six levels of headings.
+                                                                 The convention is to use h1 for the site name, h2 for the article namee 
+                                                                 h3 for the section name, h4 for the subsection name etc.
+                                                                 Search engines rely on these headers -->
+                <h3>De notifacties van onszelf</h3>
+                <h3>SUCH TYPO ERRORS</h3>
+        </header>
+        <nav>
+            <ul> <!-- <ul> means unordered list. Instead of a ist of links like this, you could also make a paragraph and do many <br/>’s
+                      The advantage of the list is that each list element has their own node (<li>), which gives you more control
+                      over styling through CSS, and makes it more easy to add JavaScript behaviours (accordeon etcetera). -->
+                <li><a href="#Voorwoord">Voorwoord</a></li>
+                <li><a href="#Inleiding">Inleiding</a></li>
+                <li><a href="#Narcisme">Narcisme</a></li>
+                <li><a href="#3 of 4 of 5 Digitale boosdoeners?">3 of 4 of 5 Digitale boosdoeners?</a></li>
+                <li><a href="#Notificaties">Notificaties</a></li>
+                <li><a href="#Conclusie">Conclusie</a></li>
+                <li><a href="#Nawoord">Nawoord</a></li>
+                <li><a href="#Bibliogrfie">Bibliogrfie</a></li>
+                            </ul>
+        </nav>
+        <article> <!-- I’ve put the main text in an ‘article’ tag. By default we will get a kind of static, blog style layout,
+                       where it will be one long scroll to the bottom. If you want to take elements of your thesis and position
+                       them in different ways, you might need to divide them up into <section>’s or <div>’s before you can
+                       position them through CSS -->
+                <h2><a id="Voorwoord">Voorwoord</a></h2>
+            <p>-</p>
+                <h2><a name="Inleiding">Inleiding</a></h2>
+            <p>-</p>
+                <h2><a name="Narcisme">Narcisme</a></h2>         
+            <p>-</p>
+                <h2><a name="3 of 4 of 5 Digitale boosdoeners?">3 of 4 of 5 Digitale boosdoeners?</a></h2>
+                <h3>Facebook</h3>
+                <p>Facebook we kennen het allemaal, ongeveer heel de westerse wereld zit er op. Het is namelijk ook een prachtig ding. het sociale netwerk waar we onze persoonlijke interesses kunnen delen met anderen en de dit op elk moment van de dag kunnen teruglezen. het is hierdoor mogelijk om wereldwijd contact te hebben met je vrienden en bekenden. De net aangekochte iphone of het behaalde rijbewijs is in minder dan een seconde al bekend onder jouw vrienden en familieleden.</p>
+
+                <p><h3>Maar wat doen we er nou eigenlijk op?</h3></p>
+
+                <p>We veranderen  regelmatig onze profielfoto, want dit is het gezicht van onze persoonlijke pagina. Uiteraard moet het een mooie zijn, eentje die jou het beste omschrijft op dat moment.
+We voegen vrienden toe, mensen die we ooit een keer hebben gesproken, een ervaring mee hebben gehad of kennen van vroeger waarvan we graag nog op de hoogte willen blijven over wat zij allemaal doen in het dagelijkse leven. We kunnen dit allemaal mooi bijhouden op onze newsfeed, hierin komen alle berichten, foto’s, videos en links voorbij die de mensen om ons heen posten en graag met ons willen delen. En om aan te tonen dat we de dingen hebben gezien en zelfs leuk vinden is het voor ons mogelijk om een ‘like’ te geven. waarmee jij je waardering uit over een bepaalde gebeurtenis onder je vrienden. soms komen er ook foto's voorbij waarin je zelf staat en is het mogelijk om je er in te ‘taggen’ , zo word deze foto ook gekoppeld aan jouw eigen pagina en kunnen mensen zien dat jij in dit gezelschap verkeerde of meedeed aan deze activiteit. Zelf zetten we ook graag foto’s online en koppelen hier onze vrienden aan. We sluiten ons aan bij groepen, groepen met dezelfde interesse of dezelfde standpunten in het leven. Hier kunnen we dingen posten die specifiek gaan over het onderwerp waarover je bent aangesloten. de “ik hou van paarden” pagina. Wij als collectief kunnen elkaar zo op de hoogte houden van de nieuwe weetjes in dat gebied en houden hier dan ook graag discussies over. het is ook mogelijk je evenementen bij te houden of er mensen voor uit te nodigen. Ook zijn er pagina’s die we kunnen gebruiken om onze smaak aan te tonen, van welke films we houden, wat voor eten we het lekkerst vinden, wat voor muziek je graag luistert, wat voor merken je geweldig vindt en bedrijven of ondernemingen die je tof vindt. ook deze pagina’s houden ons op de hoogte over nieuwe ontwikkelingen in hun gebied. Soms willen we een vriend direct contacten en plaatsen we iets op zijn account, hierdoor is het naar diegene toegespitst maar kunnen jouw en de vrienden van die persoon er zelfs ook nog op reageren en reageren doen we graag. Op bijna alles wat we doen op Facebook is het mogelijk om een reacties te plaatsen. Zo delen we meningsverschillen, grappen, links van websites, foto’s, complimenten of zelfs beledigingen omtrent het zojuist geplaatste onderwerp. Als we niet willen dat al onze vrienden meekijken maken we gebruik van de chatfunctie, hier kan je een persoon of meerdere aanspreken en een conversatie mee hebben. Met al deze gebeurtenissen op FB is soms lastig om alles bij te houden en maar gelukkig zit in het systeem een notificatie functie gebouwd, waarmee we makkelijk kunnen zien wie of wat er heeft gereageerd, getagged, gesproken, geliked of geplaatst. </p>
+                
+                <p><h3>Wat gebeurt er visueel?</h3></p>
+
+                <p><h3>TOP</h3></p>
+
+                <p>In het bovenste gedeelte zien we allereerste een donkerblauwe balk met daar op in het wit om goed op te vallen het FB logo, hiermee kunnen we vanaf elke pagina terug komen op onze eigen feed. Deze is dus gelukkig nooit ver weg. Daarnaast bevind zich de zoekbalk waarin we alles en iedereen kunnen vinden die zich op fb begeeft. Met suggesties van FB zelf. Een kleine profielfoto met naam om niet te vergeten wie er ingelogd. het woord startpagina die dezelfde functie heeft als het logo. De 3 notificatie symbolen, deze zijn als er niks gebeurt donkerder dan de balk zelf, er zit reliëf in. Deze symbolen worden wit met daarop een witte cijfer met een rode achtergrond, de hoogte van de cijfer is op basis van de aantal notificaties (vriendschap verzoek, berichten, gebeurtenissen) die er binnenkomen. Deze combinatie steekt erg af vanaf de blauwe achtergrond. hij valt direct op en kunnen hierdoor er niet meer omheen dat er iets is gebeurt. hiernaast bevinden zich de  privacy instellingen van je account, deze heeft het zelfde holle gevoel als de notificaties maar is kleiner en meer verstopt.
+(foto balk, logo, zoekbalk, profiel, notificaties, privacy) De notificaties. zodat het lijkt alsof er iets mist. een deuk. maar ook om niet op te vallen.</p>
+                
+                <p><h3>LINKS</h3></p>
+
+                <p>links staat de profiel foto met onze naam om weer niet te vergeten wie je bent en de optie om je profiel te bewerken. Daaronder een aantal tabs, een om nogmaals naar je feed te gaan en de keuze uit topverslagen of meest recente verslagen, een overzicht van je foto’s, je berichten en komende evenementen.
+(foto linker kolom pers.)
+
+De naam en profiel foto’s, we worden constant herinnerd wie we zijn.
+Nogmaal terug te keren naar de feed.
+
+Hieronder bevinden zich de pagina’s die jij beheerd. Waar jij eigenaar van bent. Deze staan dicht bij jouw persoonlijke tabs om hier makkelijker gebruik van te maken.
+(foto linker kolom persoonlijke pagina’s)
+
+Het grootse stuk in de linker kolom word toegewijd aan de groepen waarvan jij lid bent. 
+(foto linker kolom groepen)
+
+We willen allemaal ergens bij horen, en fb laat zien dat we dat graag doen en dat we er ook van veel lid zijn.
+
+De apps die je gebruikt op fb en de spelletjes die je met vrienden speelt.
+(foto linker kolom apps)
+
+De interesses die je hebt, muziek, films etc.
+(foto linker kolom interesses)
+
+We moeten een zo goed mogelijk voorkomen hebben, we zijn uniek.
+
+Een opsomming van de komende evenement waar je aan deelneemt of zou willen deelnemen.
+(foto linker kolom evenementen)
+
+naast deze tabs staat een getal die aantoont wat er nieuw is gepost, aantal berichten dat je nog moet lezen, en hoeveel evenementen er aankomen. om te voorkomen dat er iets is geweest wat je mogelijk hebt gemist.
+(foto linker kolom notificaties)
+
+Het bizarre er aan is dat fb heel goed bijhoud of je ergens de berichten hebt gelezen, en als je dat niet doet geeft hij ook aan dat je deze niet hebt gezien. Dit willen we niet en zijn we nog sneller genijgd om hier op te kliekken, want ja je zou maar iets missen.
+
+De volledige linker kolom word weergeven op een lichtgrijze achtergrond en donkergrijze tekst, dit zorgt ervoor dat dat de nieuwsfeed in het midden beter naar voren komt, als het ware minder belangrijk maar nog belangrijk genoeg zodat het wel op valt.</p>
+                
+                <p><h3>MIDDEN 1</h3></p>
+
+                <p>In het midden van de pagina bevind zich het belangrijkste van heel fb, de nieuwsberichten.
+Bovenaan is er de mogelijkheid om zelf een bericht te plaatsen, Je wordt hier zelfs in geholpen als je zelf niks kan verzinnen. Er word je een vraag gesteld die op een antwoord kan leiden waarvan je het nodig vind om te delen. Wat ben je aan het doen? Hoe voel je je? Waar denk je aan? (MEER) 
+
+je word hierdoor geprikkeld om iets te plaatsen.
+Aan ons gevoel der leegte word oproep gedaan, we moeten iets delen want anders zijn e niks.
+
+De nieuwsberichten, standaard staat deze op topverslagen. dit houd in dat wat je tegenkomt op je feed is gebaseerd op je relatie met de persoon die iets heeft geplaatst, het aantal reacties dat het bericht heeft en hoeveel likes. Berichten met veel reacties verslaan die zonder reacties.(populariteitswedstrijd) Het kan ook zijn dat de feed op meest recente verslagen staat, hierbij krijgen we zoals de titel als zegt, recente verslagen te zien die gebaseerd zijn op tijd en niet op populariteit. De keuze hierin word ons makkelijk maar ook moeilijk gemaakt, staat de optie op top dan is het niet visueel duidelijk dat je hier een keuze uit hebt gemaakt, maar staat deze op meest recent dan komt er boven aan je feed een extra blok te staan die je weer de optie geeft om toch alleen maar de populaire dingen weer te geven, Waarbij de optie top in blauw word weergegeven en hierdoor belangrijker is dan de andere. We moeten er aan herinnerd worden of we wel de goede keuze hebben gemaakt.
+foto van keuze top en recent
+
+Fb voed onze honger naar aandacht, en deze aandacht word gebaseerd op likes, of met het wel leuk genoeg vind. en als dat zo is komt het in andermans feed. We zijn constant bezig met een bepaald vorm van polulariteits wedstrijden en als we hier niet aan mee doen dan vraag fb zich af of je wel de juiste keuze hebt gemaakt, jij wilt toch ook alleen de gewaardeerde dingen zien? 
+
+De feed zelf, de berichten zijn ingekaderd en hebben een witte achtergrond die afsteekt van het grijs. ze bevatten een profiel foto en naam van de poster (in het blauw), wat het bericht is (video, foto, evenement, dat iemand naar een event is geweest of dat het gedeeld is) de tijd, wie er bij waren en soms ook nog de locatie (hier kan je voor kiezen) vaak ook nog of een van je vrienden heeft geregeerd op het bericht. Het bericht zelf, in welke vorm dan ook, deze is dan net zo groot als het kader voor maximum exposure. onder het bericht de optie om het leuk te vinden, te reageren of te delen. deze zijn blauw. hieronder zien we dan hoeveel mensen het leuk vinden en hoeveel reacties er op zijn gegeven. Waar op volg de reacties zelf, wie en wat. een profiel foto de naam en waneer. met elk daaronder weer de optie om de reactie leuk te vinden.
+foto bericht, en alle andere dingen
+
+We willen laten weten waar we zijn geweest, met wie, waneer en waarom. we willen het leuke leven uitstralen. we plaatsen al deze extra informatie erbij anders is het niet gebeurt. als een appel valt in een bos en er is niemand om het te linken, is het dan wel gebeurt? dit is wat ons bang maakt, want als jij eenmaal iets hebt gepost verdwijnt het dan in de vergetelheid of is het bij iedereen te zien. maar wat zie jij allemaal, mensen om je heen die leuke dingen doen. waarom doe jij dat niet, waarom laat jij niet weten aan mensen dat jij het ook super naar je zin hebt. waar dan ook. 
+
+Hieronder is de optie om zelf te reageren, onze profiel foto staat er al en in lichte tekst, ‘Schrijf een reactie’ het impliceert hier leegte die gevuld moet worden. en deze kan in de vorm van tekst, een foto maar ook een emoticon.
+foto reactie veld
+
+Reageer aub!!
+
+de feed zelf gaat oneindig ver door, wisselend van wat mensen hebben geplaatst, Wat het meeste voorkomt zijn videos en foto’s, deze vallen ook meer op dan gewoon een tekstje.
+foto feed
+
+Kijken wat andere mensen doen, sociale controle, heb ik het wel leuker dan de ander. 
+het raadsel van het blauwe streepje, foto
+
+Mocht iemand jou iets gericht sturen, ergens op reageren of uitnodigen terwijl je online bent dan verschijnt er een pop-up waarin de informatie staat over het bericht, van wie het is met een naam en profiel foto. mocht je het niet direct zien bij de notificaties bovenaan.
+
+Het is belangrijk! je word overal constant aan herinnerd, en deze voelt specialer dan een notificatie die er al is.</p>
+
+                <p><h3>MIDDEN 2</h3></p>
+
+                <p>Deze kolom is qua informatie gebaseerd op de grote van je browser, Mocht deze klein zijn dan krijg je in een wit kader de activiteiten van je vrienden te zien in zijn simpelste en meest recente vorm. (ook dingen die je niet krijgt te zien als je feed op meest recent staat?) Een profiel foto, naam en een tekstje, deze informatie volgt elkaar op als het bord van een tramhalte. als je met je muis er op blijft hangen krijg je het volledige bericht te zien met alles informatie net als op de feed.
+
+Hier worden we weer herinnerd wat andere aan het doen zijn. het rare is ook dat hier de activiteit van al je vrienden voorbijkomen, terwijl je feed zich alleen maar bezig houd met de mensen waar je veel contact mee hebt, ook word er onderscheid gemaakt over hoe vaak je bent op fb. als dat niet het geval is dan is het mogelijk dat deze informatie bij niemand voorbij komt. populariteit.
+
+
+hieronder zit een blok dat het aantal evenementen zien waarvoor je bent uitgenodigd en welke het meest recent is. uiteraard in het blauw.
+
+Tijdens het scrollen door je feed beweegt deze informatie met je mee, terwijl de informatie van de linker kolom uit het beeld verdwijnt. Als je browser groter is verplaatst de informatie over de activiteit van de je vrienden zich naar de meest rechter kolom. het blok met de evenementen blijft staan.
+Foto van kolom
+
+Weer een herinnering, maar dan een die je blijft achtervolgen. je mag het niet vergeten dat je iets te doen hebt of dat er mogelijk een event is waar andere aan mee doen en jij nog niet. je wilt er toch bijhoren?</p>
+
+                <p><h3>RECHTS</h3></p>
+
+                <p>Deze informatie komt te voorschijn als je browser groot genoeg is, de activiteiten en chat. Al je vrienden die dat moment online zijn of waneer ze voor het laatst online zijn geweest via internet of mobiel. nogmaals een profiel foto met naam en status. deze is groen mits zij aanwezig zijn en licht grijs als deze dat niet zijn. het zijn ze uiteraard niet allemaal maar degene waar je al een keer chat contact mee hebt gehad. onderaan staat het kopje meer vrienden die toegang geeft to de rest.
+Foto chat lijst
+
+
+De chat zelf opent zich rechts onderin en zal gaan knipperen als je een nieuw bericht krijgt, door een naam en foto word er ook duidelijk gemaakt met wie je praat, alle mogelijk chat functies zijn aanwezig plus een aardige toevoeging, Waneer je met iemand hebt gepraat, de tijden van verstuurde berichte en de “gelezen op” functie, die jouw verteld of diegene waarmee je in contact bent het heeft gelezen.
+
+We kunnen met iedereen die we kennen praten maar de bijkomst is dat het moet, en zo voelt het ook. we kunnen zien of je online was en of je het bericht hebt gelezen. we krijgen niet meer de mogelijkheid om een bericht te negeren of later te beantwoorden door de sociale controle die fb hier ons geeft. </p>
+                
+                <p>-</p>
+                
+                <p><h3>Conclusie visueel:
+blauw is duidelijk en het belangrijkst
+wit staat boven grijs.
+fb door een kleursorteerder halen?
+
+Wat voor visuele conclusie zouden wie hier uit kunnen halen, in het geheel is fb nog al saai, de grijze achtergrond, zwarte en blauwe tekst, witte kadervlakken.</h3></p>
+                
+                <p>-</p>
+                
+                <p><h3>Maar wat gebeurt er nou echt?</h3></p>
+
+
+<p>Facebook laat de wereld zien wie we zijn. althans wie we willen zijn, We profileren ons als merk. We laten ons van onze beste kant zien en verzwijgen de negatieve dingen die we meemaken. We presenteren de ideale versie van onszelf door middel van foto’s, gedachtes en dingen die je belangrijk vind. we zijn uren zoet met het creëren van ons voorkomen. Dit zorgt ervoor dat we er een nogal narcistische levenstijl aan overhouden, en deze moet gevoed worden met likes.
+
+Aangezien we hier niet de enige in zijn krijgen we een stortvloed van positieve informatie over ons heen, Met deze overgedreven informatie van andere gaan we onszelf vergelijk en lijkt ons leventje toch minder leuk en steekt het schraal af. We trekken op basis van heel weinig informatie al conclusies die ons alleen nog maar meer onzeker en eenzaam maakt. 
+
+Persoonlijk contact zorgt ervoor dat we dat we acceptabel kunnen reageren op de de ander, door gezichtsexpressie en houding, maar ons contact blijft hier digitaal waarbij we niks van de emoties kunnen achterhalen die achter het bericht zit. We worden hierdoor wat egoïstischer en ongevoeliger in het contact naar elkaar. ook hebben de tijd om over de reactie na te denken waarbij we ons zelfbeeld weer perfect naar voren kunnen laten komen, waarbij we op reactie van de ander ons weer gaan vergelijken.
+
+We blijven ook hangen in een bubbel, we komen op onze feed alleen maar informatie tegen die strook met onze eigen idee. dit komt door dat de mensen waarmee jij het meest contact hebt, het meest liked of deelt voorrang hebben op wat zich presenteert. we zweven alleen nog maar in een gebied waarbij iedereen het met je eens is, elke vorm non-appreciatie word er al uitgefilterd door fb zelf. 
+
+We leven liever in onze werkelijkheid, deze kunnen we virtueel naar de hand zetten. en kunnen er net zo lang in blijven als we willen. mochten we de realiteit niet bevallen vertrekken we gewoon weer naar de digitale wereld. Maar deze confrontatie tussen de echte wereld word hierdoor steeds grimmiger en ongelukkiger.
+
+
+wat we kunnen concluderen is dat het een spiegel is. Waarbij we constant worden herinnerd wie we zelf zijn. hoe goed of hoe slecht ons leven wel niet is. En hier is niks verkeerds aan, dit heeft de mens nodig. zelfreflectie. maar tot zekere hoogte.
+
+tuurlijk het is vervelend om te zien dat kevin altijd mooie autos kan kopen maar dat zou op een bepaalde manier een drijfveer kunnen zijn om harder je best te doen. </p>
+                
+                <p>-</p>
+                
+                <h3>Tumblr</h3>
+                <h3>Nu.nl</h3>
+            <p>-</p>
+                <h2><a name="Notificaties">Notificaties</a></h2>
+            <p>-</p>
+                <h3><a name="Conclusie">Conclusie</a></h3>
+            <p>-</p>
+                <h3><a name="Nawoord">Nawoord</a></h3>
+            <p>-</p>
+                <h3><a name="Bibliografie">Bibliografie</a></h3>
+            <p>-</p>
+                
+                
+        </article>
+        <footer>
+        <h4>Max Lennarts</h4>
+        <h4>Scriptie</h4>
+        <h5>2014-2015</h5>
+    </footer>
+    </body>
+    
+<!-- ** note: Normally, just <html lang="en"> would be enough, but we add some extra attributes ‘xmlns’ and ‘xml:lang’ that ePub likes,
+     in case we are going to make an electronic book out of this website! -->
+</html>
