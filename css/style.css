@@ -1,6 +1,8 @@
 body {
     padding: 8px 16px 0px 8px;  
-    background-color: #F8F8F8;
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/9/91/Echo_and_Narcissus.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
