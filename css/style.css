@@ -95,20 +95,26 @@ ul, ol {
 
 
 a{
-    color:color: #ffffff;;
+    color:color: #ffffff;
     text-decoration: none;
 }
 
 a:hover{
-    color: color: #ffffff;;   
+    color: color: #ffffff;   
     text-decoration: underline;
 } 
 a:visited{
-    color:color: #ffffff;;
+    color:color: #ffffff;
+    text-decoration: none;
 }
 a:active {
-    color: color: #ffffff;;
+    color: color: #ffffff;
+    text-decoration: none;
 }
+
+a:focus { text-decoration: none; }
+
+a:hover, a:active { text-decoration: none; }
 
 p {
     font-size: 17px;
@@ -197,15 +203,21 @@ a{
 }
 
 a:hover{
-    color: #ffffff;   
+    color: color: #ffffff;   
     text-decoration: underline;
 } 
 a:visited{
-    color:color: #ffffff;;
+    color:color: #ffffff;
+    text-decoration: none;
 }
 a:active {
-    color: color: #ffffff;;
+    color: color: #ffffff;
+    text-decoration: none;
 }
+
+a:focus { text-decoration: none; }
+
+a:hover, a:active { text-decoration: none; }
 
 p {
     font-size: 17px;
