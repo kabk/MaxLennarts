@@ -19,31 +19,77 @@ html {
     height:100%;
 }
 
+#container {
+    margin: -8px -5px -5px -8px;
+    width: 100%;
+    height: 100%;
+    position: fixed;    
+    z-index: 0;
+
+}
+#videoElement {
+    width: 100%;
+    height: auto;
+
+}
+
+#videoElement, #site_wrapper {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #000
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#Firsttext {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 20px;
+    font-family: "Lucida Console", Monaco, monospace;
+    margin-top: 200px;
+    letter-spacing: 1px;
+    z-index: 999;
+    float: top;
+}
+
+
 body {
     padding: 8px 16px 0px 8px;  
-    background-image: url('http://upload.wikimedia.org/wikipedia/commons/9/91/Echo_and_Narcissus.jpg');
     background-color: white;    
   background-repeat: no-repeat;  
   background-attachment: fixed;  
   background-position: 0% 0%;
   background-size: contain;
+
 }
 
 header {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 200;
-    margin-left: 0px;
+    line-height: 22px;
+    margin-left: 20px;
     font-family: "Lucida Console", Monaco, monospace;
     margin-top: 50px;
     letter-spacing: 1px;
 }
 
 nav{
-    width: 210px;
+    width: 200px;
     position: fixed;
-    bottom: 15px;
-    font-size: 14px;
-    line-height: 28px;
+    top: 15px;
+    font-size: 10px;
+    line-height: 26px;
     color: #ffffff;
     left: 15px;
     text-align: left;
@@ -54,22 +100,23 @@ nav{
 }
 
 footer{
-    width: 210px;
+    width: 200px;
     font-family: "Lucida Console", Monaco, monospace;
     position: fixed;
     bottom: 15px;
     right: 15px;
-    text-align: right;
+    text-align: center;
     outline-width: medium;
     outline-color: #ffffff;
     outline-style: solid;
     color: #ffffff;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 
 article {
     margin-top: 50px;
+    margin-left: 20px;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 17px;
     color: #ffffff;
