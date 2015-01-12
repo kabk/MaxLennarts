@@ -60,7 +60,7 @@ html {
     text-align: center;
     line-height: 22px;
     margin-left: 20px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 200px;
     letter-spacing: 1px;
     z-index: 999;
@@ -76,7 +76,7 @@ html {
     font-weight: 200;
     text-align: left;
     line-height: 15px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -94,7 +94,7 @@ header {
     font-weight: 200;
     line-height: 22px;
     margin-left: 20px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 50px;
     letter-spacing: 1px;
 }
@@ -116,7 +116,7 @@ nav{
 
 footer{
     width: 200px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
     position: fixed;
     bottom: 15px;
     right: 15px;
@@ -132,8 +132,8 @@ footer{
 article {
     margin-top: 50px;
     margin-left: 20px;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     color: #ffffff;
 }
 
@@ -145,7 +145,7 @@ li {
 
 h1, h2, h3, h4,h5, h6 {
     margin: 10px 180px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     margin-left: 230px;
     color: #ffffff;
@@ -216,7 +216,7 @@ body {
 header {
     font-size: 10px;
     font-weight: 700;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
     margin-left: -150px;
 }
 
@@ -235,7 +235,7 @@ display: none;
 
 article {
     margin-top: 25px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 }
 
@@ -247,7 +247,7 @@ li {
 
 h1, h2, h3, h4,h5, h6 {
     margin: 10px 180px;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 h2{
     margin-top: 0px;
